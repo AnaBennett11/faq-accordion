@@ -9,7 +9,7 @@ const Card = () => {
     <>
       <div className="card">
         <div className="cardTitleContainer">
-          <img src={star}></img>
+          <img className="cardStar" src={star}></img>
           <h1 className="cardTitle">FAQs</h1>
         </div>
         {testData.map((data, index) => (
