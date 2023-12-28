@@ -1,13 +1,19 @@
 @font-face {
-  font-family: "WorkSans";
-  src: url("../assets/fonts/WorkSans-Regular.ttf");
-  font-weight: 700;
-  font-style: normal;
+  font-family: 'WorkSans-Bold';
+  src: url(../../assets/fonts/static/WorkSans-Bold.ttf)
 }
 
 @font-face {
-  font-family: "WorkSansVariable";
-  src: url("../assets/fonts/WorkSans-VariableFont_wght.tt");
-  font-weight: 700;
-  font-style: normal;
+  font-family: 'WorkSans-Regular';
+  src: url(../../assets/fonts/static/WorkSans-Regular.ttf)
+}
+
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: url(../../assets/fonts/static/WorkSans-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: 'WorkSans-Variable';
+  src: url(../../assets/fonts/static/WorkSans-VariableFont_wght.ttf)
 }

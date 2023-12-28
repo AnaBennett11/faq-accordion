@@ -1,4 +1,4 @@
-@use "../../styles/typography" as *;
+@use "../../styles/typography";
 
 
 
@@ -14,7 +14,7 @@
   .cardTitleContainer {
     display: flex;
     .cardTitle{
-        font-family: "WorkSansVariable", sans-serif;
+        font-family: 'WorkSans-Variable';
         font-size: 32px;
     }
   }

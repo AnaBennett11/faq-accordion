@@ -1,3 +1,5 @@
+@use '../../styles/typography';
+
 .accordion {
   display: flex;
   flex-direction: column;
@@ -5,8 +7,10 @@
   .accordion_row {
     display: flex;
     align-items: center; 
+    justify-content: space-between;
     .accordion_question {
       font-size: 16px;
+      font-family: 'WorkSans-Bold';
       &:hover {
         color: #ad28eb;
       }
@@ -20,6 +24,8 @@
 
   .accordion_answer {
     margin-top: 10px; 
+    font-family: 'WorkSans-Regular';
+    color: #8B6990;
     p {
       margin-top: 0;  
     }
