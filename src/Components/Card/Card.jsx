@@ -10,7 +10,7 @@ const Card = () => {
       <div className="card">
         <div className="cardTitleContainer">
           <img src={star}></img>
-          <h1>FAQs</h1>
+          <h1 className="cardTitle">FAQs</h1>
         </div>
         {testData.map((data, index) => (
           <Accordion

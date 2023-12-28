@@ -1,8 +1,21 @@
+@use "../../styles/typography" as *;
+
+
+
 .card {
-    // height: auto;
-    // width: 327px;
-    background-color: white;
-    .cardTitleContainer{
-        display: flex;
+  width: 327px;
+  height: 527px;
+  padding: 24px;
+  border-radius: 8px;
+  gap: 24px;
+  background-color: white;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  .cardTitleContainer {
+    display: flex;
+    .cardTitle{
+        font-family: "WorkSansVariable", sans-serif;
+        font-size: 32px;
     }
+  }
 }

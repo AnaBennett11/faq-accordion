@@ -1,3 +1,27 @@
 .accordion {
+  display: flex;
+  flex-direction: column;
+
+  .accordion_row {
     display: flex;
+    align-items: center; 
+    .accordion_question {
+      font-size: 16px;
+      &:hover {
+        color: #ad28eb;
+      }
+    }
+
+    .accordion_button {
+      border: none;
+      background-color: white;
+    }
+  }
+
+  .accordion_answer {
+    margin-top: 10px; 
+    p {
+      margin-top: 0;  
+    }
+  }
 }
