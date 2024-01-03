@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../Accordion/Accordion.scss';
 import minus from '../../assets/minus.svg';
 import plus from '../../assets/plus.svg';
+import divider from '../../assets/divider.svg'
 
 
 const Accordion = ({question, answer}) => {
@@ -16,6 +17,7 @@ const Accordion = ({question, answer}) => {
 
     return (
       <div className="accordion">
+        <img src={divider} />
         <div className="accordion_row" onClick={toggleAnswerVisibility}>
           <h1 className="accordion_question">{question}</h1>
           <button className="accordion_button">
