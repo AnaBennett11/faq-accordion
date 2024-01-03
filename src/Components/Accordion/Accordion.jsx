@@ -17,7 +17,6 @@ const Accordion = ({question, answer}) => {
 
     return (
       <div className="accordion">
-        <img src={divider} />
         <div className="accordion_row" onClick={toggleAnswerVisibility}>
           <h1 className="accordion_question">{question}</h1>
           <button className="accordion_button">
@@ -27,11 +26,13 @@ const Accordion = ({question, answer}) => {
             />
           </button>
         </div>
+      
         {isAnswerVisible && (
           <div className="accordion_answer">
             <p>{answer}</p>
           </div>
         )}
+        <img src={divider} />
       </div>
     );
 };

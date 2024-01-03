@@ -1,17 +1,19 @@
-import './styles/_global.scss';
-import Card from './Components/Card/Card';
-import mobileBackground from '../src/assets/mobileBackground.svg';
+import "./styles/_global.scss";
+import Card from "./Components/Card/Card";
+import header from "../src/assets/header.svg";
+
+
 function App() {
-
-
   return (
     <>
-  
-      <img className="mobileBackground" src={mobileBackground} alt="Mobile background"/>
-  
-    <Card />
+      <img
+        className="headerBackground"
+        src={header}
+        alt="header background image"
+      />
+      <Card />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
