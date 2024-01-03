@@ -16,9 +16,9 @@ const Accordion = ({question, answer}) => {
 
     return (
       <div className="accordion">
-        <div className="accordion_row">
+        <div className="accordion_row" onClick={toggleAnswerVisibility}>
           <h1 className="accordion_question">{question}</h1>
-          <button className="accordion_button" onClick={toggleAnswerVisibility}>
+          <button className="accordion_button">
             <img
               src={isAnswerVisible ? minus : plus}
               alt={isAnswerVisible ? "minus" : "plus"}
